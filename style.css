@@ -1,0 +1,46 @@
+body {
+	background-color: #C0C0C0;
+	color: #ooo;
+}
+.bigBox {
+	width: 400px;
+	mmargin-top: 30;
+	margin-bottom: 30;
+	margin-left: 30;
+	margin-right: 30;
+
+}
+.header {
+	text-align: center;
+	background-color: #7FFFD4;
+}
+ul.currencies {
+	height: 300px;
+	background-color: #09F;
+	padding: 0.1
+}
+ul.currencies li {
+	background-color: #7FFFD4;
+	border-radius: 5px;
+	list-style: none;
+}
+.add-currency {
+	background-color: #7FFFD4;
+	color: black;
+	margin: 0;
+	padding: 5px 5px;
+	border-radius: 2px;
+	border-color: black;
+	font-size: 10px;
+	text-align: center;
+}
+.all-conversions {
+	background-color: #7FFFD4;
+	color: black;
+	margin: 0;
+	padding: 5px 5px;
+	border-radius: 2px;
+	border-color: black;
+	font-size: 10px;
+	text-align: center; 
+}
