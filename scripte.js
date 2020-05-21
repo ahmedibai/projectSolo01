@@ -1,5 +1,5 @@
 var turn = document.getElementById("turn");
-// X_or_O => to set X or O into the box
+
    boxes = document.querySelectorAll("#main div"), X_or_O = 0;
 
 function selectWinnerBoxes(b1, b2, b3) {
@@ -77,8 +77,7 @@ function replay() {
        boxes[i].classList.remove("win");
        boxes[i].innerHTML = "";
        turn.innerHTML = "Play";
-       turn.style.fontSize = "25px";
-       
+       turn.style.fontSize = "25px";   
    }
    
 }
